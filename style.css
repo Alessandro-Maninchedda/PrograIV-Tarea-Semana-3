@@ -1,1 +1,39 @@
+body{
+   background-color: #2e3233 !important;
+   position: relative;
+   min-height: 100vh;
+   overflow-x: hidden;
+}
 
+.bg-light-color{
+   background-color: #00203FFF !important;
+}
+
+.nav-link {
+   color: #ADEFD1FF !important;
+}
+
+.page-footer{
+   background-color: #00203FFF;
+   color: white;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   padding: 3px !important;
+}
+
+.container{
+   padding-top: 5em;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.input{
+   overflow-x: scroll;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
