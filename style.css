@@ -145,9 +145,15 @@ body{
    cursor: pointer;
    }
    
+   button:nth-child(1) {
+   font-size: 20px;
+   background-color: #919191 ;
+   }
+
    button:nth-child(2) {
    font-size: 20px;
    width: 6.5em;
+   background-color: #919191 ;
    }
    
    button:nth-child(3) {
