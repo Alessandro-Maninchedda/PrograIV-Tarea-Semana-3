@@ -1,99 +1,40 @@
 body{
-   overflow-x: hidden;
-}
-
-.bg-light{
-   background-color: #00203FFF !important;
-}
-
-.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
-   color: #ADEFD1FF !important;
-}
-
-.main, .container-2{
-   margin: 0 auto;
-   width: 100%;
-   text-align: center;
-   font-style: italic;
-   color: #00203FFF;
-}
-
-.main{
-   padding-top: 3%;
-   padding-bottom: 3%;
-}
-
-.b2{
-   background-color: darkgrey;
-}
-
-.container-2{
-   padding: none !important;
-}
-
-.carousel-item>img {
-   max-height: 25rem;
-}
-
-.carousel-item h2{
-   font-size: 7rem;
-}
-
-.carousel-caption{
-   color: #00203FFF;
-}
-
-.container-3{
-   display: inline;
-   flex-direction: row;
-}
-
-.py-5{
-   background-color: darkgray !important;
-}
-
-.page-footer{
-   background-color: #00203FFF;
-   color: white;
-}
-
-/* Calculadora - Agregandola a semana 2 */
-#head-calcu{
-   text-align: center;
-   color: white;
-}
-
-body{
    background-color: #2e3233 !important;
    position: relative;
    min-height: 100vh;
    overflow-x: hidden;
-   }
-   
-   .bg-light-color{
+}
+
+.bg-light-color{
    background-color: #00203FFF !important;
-   }
-   
-   .nav-link {
+}
+
+.nav-link {
    color: #ADEFD1FF !important;
-   }
-   
-   .page-footer{
+}
+
+.page-footer{
    background-color: #00203FFF;
    color: white;
    position: absolute;
    bottom: 0;
    width: 100%;
    padding: 3px !important;
-   }
-   
-   input::-webkit-outer-spin-button,
-   input::-webkit-inner-spin-button {
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
    -webkit-appearance: none;
    margin: 0;
-   }
-   
-   #calculadora {
+}
+
+#head-calcu{
+   padding: 1em;
+   text-align: center;
+   color: white;
+}
+
+#calculadora {
    width: 320px;
    height: 520px;
    position: relative;
@@ -102,39 +43,39 @@ body{
    background-color: #464c50;
    margin: 0 auto;
    top: 20px;
-   }
-   
-   #resultado {
+}
+
+#resultado {
    height: 120px;
-   }
-   
-   #historial {
+}
+
+#historial {
    text-align: right;
    height: 20px;
    margin: 0 20px;
    padding-top: 20px;
    font-size: 15px;
    color: #bcbec0;
-   }
-   
-   #total {
+}
+
+#total {
    text-align: right;
    height: 60px;
    margin: 10px 20px;
    font-size: 30px;
    color: #eaedef;
-   }
-   
-   #botones {
+}
+
+#botones {
    height: 400px;
-   }
-   
-   .numero {
+}
+
+.numero {
    background-color: #eaedef;
-   }
-   
-   .operador,
-   .numero {
+}
+
+.operador,
+.numero {
    width: 50px;
    height: 50px;
    margin: 15px;
@@ -143,48 +84,47 @@ body{
    font-weight: bold;
    font-size: 15px;
    cursor: pointer;
-   }
-   
-   button:nth-child(1) {
+}
+
+button:nth-child(1) {
    font-size: 20px;
    background-color: #919191 ;
-   }
+}
 
-   button:nth-child(2) {
+button:nth-child(2) {
    font-size: 20px;
    width: 6.5em;
    background-color: #919191 ;
-   }
-   
-   button:nth-child(3) {
+}
+
+button:nth-child(3) {
    font-size: 20px;
    background-color: #7776c9;
-   }
-   
-   button:nth-child(7) {
+}
+
+button:nth-child(7) {
    font-size: 20px;
    background-color: #5fbe33;
-   }
-   
-   button:nth-child(11) {
+}
+
+button:nth-child(11) {
    font-size: 20px;
    background-color: #da3c3c;
-   }
-   
-   button:nth-child(15) {
+}
+
+button:nth-child(15) {
    font-size: 20px;
    background-color: #d3a715;
-   }
-   
-   button:nth-child(16) {
+}
+
+button:nth-child(16) {
    font-size: 20px;
    width: 6.5em;
-   }
-   
-   button:nth-child(17){
+}
+
+button:nth-child(17){
    font-size: 20px;
    background-color: #919191;
    width: 6.5em;
-   }
-   
-   
+}
+
