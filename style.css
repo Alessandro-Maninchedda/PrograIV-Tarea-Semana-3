@@ -66,6 +66,15 @@ input::-webkit-inner-spin-button {
    color: #eaedef;
 }
 
+#total p, #resultado p{
+   overflow-y: scroll;
+} 
+
+#total p::-webkit-scrollbar, #resultado p::-webkit-scrollbar{
+   display: none;
+   overflow-y: scroll;
+} 
+
 #botones {
    height: 400px;
 }
@@ -91,7 +100,7 @@ button:nth-child(1) {
    background-color: #919191 ;
 }
 
-button:nth-child(2) {
+#calculadora button:nth-child(2) {
    font-size: 20px;
    width: 6.5em;
    background-color: #919191 ;
